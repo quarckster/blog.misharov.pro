@@ -1,1 +1,23 @@
-theme: jekyll-theme-slate
+title: Technotes
+email: quarckster@pm.me
+baseurl: ""
+description: "Technical notes from an IT geek."
+url: "https://blog.misharov.pro"
+github_username:  quarckster
+
+remote_theme: jekyll/minima
+
+minima:
+  skin: solarized
+  social_links:
+    github: quarckster
+
+header_pages:
+  - about.md
+
+permalink: /:year-:month-:day/:title
+paginate: 5
+
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
