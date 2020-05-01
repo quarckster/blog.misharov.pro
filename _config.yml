@@ -1,9 +1,11 @@
 title: Technotes
-email: quarckster@pm.me
+author:
+  name: Dmitry Misharov
+  email: mail@misharov.pro
 baseurl: ""
 description: "Technical notes from an IT geek."
 url: "https://blog.misharov.pro"
-github_username:  quarckster
+github_username: quarckster
 
 remote_theme: jekyll/minima
 
