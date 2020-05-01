@@ -13,6 +13,7 @@ minima:
   skin: solarized
   social_links:
     github: quarckster
+    telegram: misharovpro
 
 header_pages:
   - about.md
@@ -23,3 +24,4 @@ paginate: 5
 plugins:
   - jekyll-paginate
   - jekyll-remote-theme
+  - jekyll-target-blank
