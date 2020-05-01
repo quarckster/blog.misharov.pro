@@ -25,3 +25,4 @@ plugins:
   - jekyll-paginate
   - jekyll-remote-theme
   - jekyll-target-blank
+  - jekyll-feed
