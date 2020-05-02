@@ -7,6 +7,7 @@ description: Technical notes from an IT geek.
 url: "https://blog.misharov.pro"
 github_username: quarckster
 
+show_excerpts: true
 remote_theme: jekyll/minima
 
 minima:
