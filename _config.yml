@@ -4,7 +4,7 @@ author:
   email: mail@misharov.pro
 baseurl: ""
 description: Technical notes from an IT geek.
-url: "https://blog.misharov.pro"
+url: https://blog.misharov.pro
 github_username: quarckster
 
 show_excerpts: true
@@ -27,3 +27,4 @@ plugins:
   - jekyll-remote-theme
   - jekyll-target-blank
   - jekyll-feed
+  - jekyll-sitemap
