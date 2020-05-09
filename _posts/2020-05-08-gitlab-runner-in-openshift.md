@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Gitlab runner in Openshift
+title: Gitlab runner in Openshift
 tags: [openshift, gitlab-runner, ci]
 ---
 I'm pretty sure most of you familiar with Gitlab. It has a lot of features and nowadays it looks a

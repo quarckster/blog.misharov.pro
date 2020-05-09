@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  UI testing in Kubernetes
+title: UI testing in Kubernetes
 tags: [k8s, selenium, testing]
 ---
 As a quality engineer I responsible for testing various parts of a product. One of such part can be
