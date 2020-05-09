@@ -26,5 +26,6 @@ plugins:
   - jekyll-paginate
   - jekyll-remote-theme
   - jekyll-target-blank
-  - jekyll-feed
   - jekyll-sitemap
+  - jekyll-email-protect
+  - jekyll_picture_tag
