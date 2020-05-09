@@ -30,3 +30,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-email-protect
   - jekyll_picture_tag
+  - jekyll-feed
