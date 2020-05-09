@@ -15,6 +15,7 @@ minima:
   social_links:
     github: quarckster
     telegram: misharovpro
+    linkedin: misharov
 
 header_pages:
   - about.md
