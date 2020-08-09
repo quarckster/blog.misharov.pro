@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Evolution of testing
+title: Evolution of UI testing
 tags: [pytest, selenium, containers, pytest-xdist, ci]
 ---
 Web UI testing is a tricky thing in many aspects. They requires many dependencies, they are slow and
@@ -128,12 +128,12 @@ containers. Unfortunately, version 2.0.2 has a nasty [bug](https://github.com/co
 that breaks networking in rootless containers. So I had to run containers with `sudo` but I'll
 remove it when the bug will be fixed. Local experiments went fine. The next task is to prepare the
 CI system. As I told earlier I was using Travis CI and it has one drawback. It doesn't have `podman`
-preinstalled. Strictly speaking nothing could prevent to use `docker` but I prefer `podman` due to
-its daemonless approach and rootless containers.
+preinstalled. Strictly speaking nothing could prevent me to use `docker` but I prefer `podman` due
+to its daemonless approach and rootless containers.
 
-In the end I switched to Github Actions. Their instances have `podman` preinstalled. Actions have a
-nice feature of shared steps. But in other aspects I wouldn't highlight that CI system among others.
-Here is an excerpt of `workflow.yaml`:
+In the end I switched to Github Actions. Their instances have `podman` preinstalled and Actions have
+a nice feature of shared steps. But in other aspects I wouldn't highlight that CI system among
+others. Here is an excerpt of `workflow.yaml`:
 
 ```yaml
 ...
