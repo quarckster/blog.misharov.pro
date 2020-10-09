@@ -75,7 +75,7 @@ $ oc process -f ocp-gitlab-runner-template.yaml \
 
 That's it. I hope someone find it useful and feel free to use it.
 
-References:
+## References
 
 * [Gitlab](https://gitlab.com)
 * [Openshift](https://www.openshift.com/)

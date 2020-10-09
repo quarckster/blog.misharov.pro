@@ -170,7 +170,7 @@ test:
 So what about time execution? It's reduced to **11** minutes and it's two times faster! Not bad. Can
 I do better?
 
-References:
+## References
 
 * [widgetastic.patternfly4](https://github.com/RedHatQE/widgetastic.patternfly4)
 * [pytest-xdist](https://github.com/pytest-dev/pytest-xdist)

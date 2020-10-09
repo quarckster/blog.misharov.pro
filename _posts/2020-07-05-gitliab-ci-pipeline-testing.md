@@ -173,6 +173,6 @@ able to see it on `https:/gitlab.com/acme/pipeline-test`
 I hope you got the idea. I guess there is a space for improvement and it's possible to automate
 these steps.
 
-References:
+## References
 
 * <https://docs.gitlab.com/ee/ci/yaml/README.html#include>

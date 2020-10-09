@@ -135,7 +135,7 @@ in `deploy_netlify` `bash make.sh deploy` is called.
 As you can see creating a Kodi add-on repository is a quite trivial task and updating it can be
 easily automated.
 
-References:
+## References
 
 * <https://kodi.tv>
 * <https://kodi.wiki/view/Add-on_development>
