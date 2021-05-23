@@ -27,7 +27,7 @@ we deploy a Python application.
 But what about dependencies of dependencies? Python code is distributed via *packages*. A Python
 package is a directory that follows a certain file structure and has `setup.py` file that is a
 build script for `setuptools`. If your package uses other packages you can specify them in
-`instal_requires` argument:
+`install_requires` argument:
 
 ```python
 import setuptools
