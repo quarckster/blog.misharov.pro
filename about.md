@@ -15,7 +15,3 @@ CE3A 02AE A951 62B1 11DA  22D7 80DF 8191 160F C221
 My Red Hat certification ID:
 
 [160-194-544](https://rhtapps.redhat.com/verify/?certId=160-194-544)
-
-My pronoun is:
-
-emacs emacser emacser emacs emacself
