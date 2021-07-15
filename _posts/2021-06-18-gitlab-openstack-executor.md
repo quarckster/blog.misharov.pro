@@ -304,15 +304,22 @@ if __name__ == "__main__":
    main()
 ```
 
-## Diagram
+## Sequence diagrams
 
-Here is a rough diagram of the workflow:
+Here are sequence diagram of the workflow:
 
 {:refdef: style="text-align: center;"}
 ![diagram 1](/assets/img/2021-06-18-gitlab-openstack-executor-1.png)
 {: refdef}
 {:refdef: style="text-align: center;"}
-*diagram 1*
+*diagram 1 - sequence diagram of prepare stage*
+{: refdef}
+
+{:refdef: style="text-align: center;"}
+![diagram 2](/assets/img/2021-06-18-gitlab-openstack-executor-2.png)
+{: refdef}
+{:refdef: style="text-align: center;"}
+*diagram 2 - sequence diagram of run stage*
 {: refdef}
 
 ## Distribution
