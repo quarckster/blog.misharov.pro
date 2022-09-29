@@ -81,3 +81,5 @@ created virtual environment CPython3.10.4.final.0-64 in 114ms
 
 New packages will be installed into the virtual environment and system packages will be accounted
 as well. After activation and installation `pudb` we can run `add-apt-repository` in the debug mode.
+
+[Discuss on Github](https://github.com/quarckster/blog.misharov.pro/discussions/25)
