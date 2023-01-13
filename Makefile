@@ -42,6 +42,7 @@ help:
 	@echo '   make serve-global [SERVER=0.0.0.0]  serve (as root) to $(SERVER):80    '
 	@echo '   make devserver [PORT=8000]          serve and regenerate together      '
 	@echo '   make devserver-global               regenerate and serve on 0.0.0.0    '
+	@echo '   make deploy                         deploy blog to Netlify             '
 	@echo '                                                                          '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
@@ -74,4 +75,7 @@ publish:
 publish_in_container:
 	"$(CONTAINER_ENGINE)" run -it -v "$(CURDIR)":/mnt -w /mnt quay.io/quarck/blog make publish
 
-.PHONY: html help clean regenerate serve serve-global devserver publish publish_in_container
+deploy: clean publish_in_container
+	"$(CONTAINER_ENGINE)" run -it -e NETLIFY_AUTH_TOKEN -e NETLIFY_SITE_ID -v "$(CURDIR)":/mnt -w /mnt quay.io/quarck/netlify netlify deploy --dir=output/ --prod
+
+.PHONY: html help clean regenerate serve serve-global devserver publish publish_in_container deploy
