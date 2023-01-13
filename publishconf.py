@@ -6,12 +6,11 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-# SITEURL = "https://blog.misharov.pro"
+SITEURL = "https://blog.misharov.pro"
 RELATIVE_URLS = False
 
 FEED_DOMAIN = SITEURL
-FEED_ATOM = "feed.xml"
-FEED_ALL_ATOM = None
+FEED_ALL_ATOM = "feed.xml"
 CATEGORY_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
