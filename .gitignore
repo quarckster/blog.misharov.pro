@@ -1,7 +1,7 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+.bash_history
+__pycache__/
+*.py[cod]
+output/
+venv/
 .vscode
-Gemfile.lock
 *.code-workspace
