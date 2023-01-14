@@ -73,9 +73,9 @@ publish:
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS) && chmod -R a+rw "$(OUTPUTDIR)"
 
 publish_in_container:
-	"$(CONTAINER_ENGINE)" run -it -v "$(CURDIR)":/mnt -w /mnt quay.io/quarck/blog make publish
+	"$(CONTAINER_ENGINE)" run -e DEBUG -e PELICANOPTS -v "$(CURDIR)":/mnt -w /mnt quay.io/quarck/blog make PELICANOPTS=${PELICANOPTS} DEBUG=${DEBUG} publish
 
-deploy: clean publish_in_container
-	"$(CONTAINER_ENGINE)" run -it -e NETLIFY_AUTH_TOKEN -e NETLIFY_SITE_ID -v "$(CURDIR)":/mnt -w /mnt quay.io/quarck/netlify netlify deploy --dir=output/ --prod
+deploy: publish_in_container
+	"$(CONTAINER_ENGINE)" run -t -e NETLIFY_AUTH_TOKEN -e NETLIFY_SITE_ID -v "$(CURDIR)":/mnt -w /mnt quay.io/quarck/netlify netlify deploy --dir=output/ --prod
 
 .PHONY: html help clean regenerate serve serve-global devserver publish publish_in_container deploy
