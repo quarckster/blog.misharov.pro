@@ -4,7 +4,7 @@ SITEURL = "http://127.0.0.1:8000"
 SUBTITLE = "Technical notes from an IT geek"
 GITHUB_URL = "https://github.com/quarckster"
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ["readtime", "neighbors", "summary", "minify", "sitemap"]
+PLUGINS = ["readtime", "neighbors", "summary", "sitemap"]
 DISPLAY_CATEGORIES_ON_MENU = False
 STATIC_PATHS = ["assets"]
 PATH = "content"
@@ -28,6 +28,18 @@ SOCIAL = (
     ("linkedin", "https://linkedin.in/in/misharov"),
 )
 DEFAULT_PAGINATION = 10
+MARKDOWN = {
+    "extension_configs": {
+        "markdown.extensions.codehilite": {
+            "css_class": "highlight",
+            "use_pygments": True,
+            "guess_lang": False,
+        },
+        "markdown.extensions.extra": {},
+        "markdown.extensions.meta": {},
+    },
+    "output_format": "html5",
+}
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 # Summary plugin
