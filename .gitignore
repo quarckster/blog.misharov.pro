@@ -1,4 +1,5 @@
 .bash_history
+.config/
 __pycache__/
 node_modules/
 *.py[cod]
