@@ -102,7 +102,8 @@ Debian developers intentionally do not source `/etc/profile` in `zprofile`:
 I ended up just copying Arch way and my `zprofile` sources `/etc/profile` via emulation.
 
 
-References:
+# References:
+
 * <https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html>
 * <https://wiki.archlinux.org/title/Flatpak#Add_Flatpak_.desktop_files_to_your_menu>
 * <https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=983116#22>

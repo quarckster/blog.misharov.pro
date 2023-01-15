@@ -13,12 +13,12 @@ User interface it's a first thing that you see in software with GUI. Jenkins has
 unobvious user interface. If you have installed a bunch of plugins your settings page will become a
 mess.  In modern browsers some forms are just broken:
 
-{% picture assets/img/2020-06-02-why-i-dont-like-jenkins-1.png --alt Jenkins Classic UI %}
+<img class="image-center" alt="Jenkins Classic UI" src="{static}/assets/img/2020-06-02-why-i-dont-like-jenkins-1.png"/>
 
 There is more modern UI from Jenkins developers called Blue Ocean. It looks much nicer but it
 doesn't have feature parity with the classic UI. So it can be used only for pipeline displaying.
 
-{% picture assets/img/2020-06-02-why-i-dont-like-jenkins-2.png --alt Jenkins Blue Oxean UI %}
+<img class="image-center" alt="Jenkins Blue Oсean UI" src="{static}/assets/img/2020-06-02-why-i-dont-like-jenkins-2.png"/>
 
 ## Scalability
 
