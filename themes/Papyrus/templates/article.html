@@ -18,10 +18,10 @@
 <div class="md:mt-14 text-zinc-800 dark:text-zinc-300 pb-6">
   <main>
     <header>
-      <h1 class="font-semibold text-3xl my-2">{{article.title}}</h1>
-      <footer class="flex text-sm text-zinc-800 dark:text-zinc-400">
+      <h2 class="font-semibold text-3xl my-2">{{article.title}}</h2>
+      <div class="flex text-sm text-zinc-800 dark:text-zinc-400">
         <div class="flex text-xs text-zinc-800 dark:text-zinc-400">
-          <time>{{ article.date|strftime('%B %d, %Y') }}</time>
+          <div>{{ article.date|strftime('%B %d, %Y') }}</div>
           <div>
             {% if article.readtime %}
             <span>&nbsp;·&nbsp;{{ article.readtime }} min read</span>
@@ -33,7 +33,7 @@
             {% endif %}
           </div>
         </div>
-      </footer>
+      </div>
       {% if article.modified %}
       <div class="flex text-xs text-zinc-800 dark:text-zinc-400">
         <span>Last updated: {{ article.modified|strftime('%B %d, %Y') }}</span>
@@ -78,12 +78,12 @@
     <footer class="flex flex-col mt-10 ">
       <ul class="flex flex-wrap">
         {% for tag in article.tags|sort %}
-        <a href="{{ SITEURL }}/{{ tag.url }}">
+        
           <li
             class="bg-zinc-200 hover:bg-zinc-300 dark:hover:bg-zinc-800 dark:bg-zinc-700 text-zinc-500 dark:text-neutral-400 mb-2 mr-2 px-3 py-1.5 rounded-md transition ease-in active:-translate-y-1 active:scale-110 duration-75">
-            {{ tag }}
+            <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
           </li>
-        </a>
+
         {% endfor %}
       </ul>
       <div class="flex w-full my-2 bg-zinc-200 dark:bg-zinc-700 rounded-lg">
