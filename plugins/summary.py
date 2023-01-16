@@ -76,7 +76,7 @@ def extract_summary(instance):
         if end_summary:
             content = content.replace(end_marker, '', 1)
 
-    summary = str(BeautifulSoup(summary, 'html.parser'))
+    summary = BeautifulSoup(summary, 'html.parser').get_text()
 
     instance._content = content
     # default_status was added to Pelican Content objects after 3.7.1.
