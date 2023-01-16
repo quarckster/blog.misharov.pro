@@ -1519,6 +1519,14 @@ html {
     display: flex;
   }
 
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:flex-col {
+    flex-direction: column;
+  }
+
   .sm\:justify-between {
     justify-content: space-between;
   }
@@ -1557,6 +1565,14 @@ html {
 
   .md\:max-w-screen-md {
     max-width: 768px;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:flex-col {
+    flex-direction: column;
   }
 
   .md\:p-6 {
