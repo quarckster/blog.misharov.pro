@@ -13,7 +13,8 @@ STATIC_PATHS = ["assets"]
 PATH = "content"
 EXTRA_PATH_METADATA = {
     "assets/favicon.ico": {"path": "favicon.ico"},
-    "assets/favicon.png": {"path": "favicon.png"}
+    "assets/favicon.png": {"path": "favicon.png"},
+    "assets/robots.txt": {"path": "robots.txt"},
 }
 TIMEZONE = "Europe/Vienna"
 DEFAULT_LANG = "en"
