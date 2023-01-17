@@ -12,7 +12,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 STATIC_PATHS = ["assets"]
 PATH = "content"
 EXTRA_PATH_METADATA = {
-    "assets/favicon.ico": {"path": "favicon.ico"},
+    "assets/favicon.svg": {"path": "favicon.svg"},
     "assets/favicon.png": {"path": "favicon.png"},
     "assets/robots.txt": {"path": "robots.txt"},
 }
