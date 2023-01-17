@@ -3,6 +3,9 @@ SITENAME = "Misharov Pro"
 SITEURL = "http://127.0.0.1:8000"
 SUBTITLE = "Technical notes from an IT geek"
 GITHUB_URL = "https://github.com/quarckster"
+SLUGIFY_SOURCE = "basename"
+# Remove date from the slug
+SLUG_REGEX_SUBSTITUTIONS = [(r"\d{4}-\d{2}-\d{2}-", "")]
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = ["readtime", "neighbors", "summary", "sitemap"]
 DISPLAY_CATEGORIES_ON_MENU = False
