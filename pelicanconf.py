@@ -29,7 +29,7 @@ THEME = "themes/Papyrus"
 # Social widget
 SOCIAL = (
     ("github", "https://github.com/quarckster"),
-    ("linkedin", "https://linkedin.in/in/misharov"),
+    ("linkedin", "https://linkedin.com/in/misharov"),
 )
 DEFAULT_PAGINATION = 10
 MARKDOWN = {
