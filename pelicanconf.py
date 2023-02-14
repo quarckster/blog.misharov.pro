@@ -15,6 +15,7 @@ EXTRA_PATH_METADATA = {
     "assets/favicon.svg": {"path": "favicon.svg"},
     "assets/favicon.png": {"path": "favicon.png"},
     "assets/robots.txt": {"path": "robots.txt"},
+    "assets/0x160FC221_public.asc": {"path": "0x160FC221_public.asc"},
 }
 TIMEZONE = "Europe/Vienna"
 DEFAULT_LANG = "en"
