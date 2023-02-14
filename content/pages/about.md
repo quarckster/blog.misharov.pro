@@ -13,10 +13,10 @@ them to the production environment. I'm passionate about best practices and comm
 I'm always ready to help and think that collaboration is the key to success.
 The purpose of this blog is to keep somewhere my technical notes, observations and share experience.
 
-My openPGP key fingerprint:
+Professional links:
 
-[CE3A 02AE A951 62B1 11DA  22D7 80DF 8191 160F C221]({static}/assets/0x160FC221_public.asc)
-
-My Red Hat certification ID:
-
-[160-194-544](https://rhtapps.redhat.com/verify/?certId=160-194-544)
+* [Github](https://github.com/quarckster)
+* [LinkedIn](https://www.linkedin.com/in/misharov/)
+* [Red Hat certification](https://rhtapps.redhat.com/verify/?certId=160-194-544)
+* [openPGP public key]({static}/assets/0x160FC221_public.asc)
+* [Mastodon](https://mastodon.social/@quarck)
